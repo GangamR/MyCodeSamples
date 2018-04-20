@@ -1,0 +1,54 @@
+{
+  "serviceCenter": "LAP",
+  "jtnCode": "na",
+  "vendorName": "Le Com",
+  "vendorReferenceNumber": "56565656",
+  "poNumber": "89777567",
+  "workDate": "2018-01-25",
+  "tsPKId": "",
+  "contractNumber": "4400004611",
+  "deleted": {
+
+  },
+  "events": [
+    {
+      "eventPKId": "",
+      "eventType": "E",
+      "eventStatus": "S",
+      "eventID": "78787878",
+      "isUnitBilling": "UM",
+      "workLocation": "Unit Billing Work Location - Detroit",
+      "workDescription": "Unit Billing Work Description",
+      "units": [
+        {
+          "unitPKId": "",
+          "unitId": "7504315",
+          "desc": "1023 SMART FAULT INDICATR-PRIM-SUBTRN",
+          "quantity": "10",
+          "indirectCode": ""
+        },
+        {
+          "unitPKId": "",
+          "unitId": "7501645",
+          "desc": "1008A",
+          "quantity": "12",
+          "indirectCode": ""
+        },
+        {
+          "unitPKId": "",
+          "unitId": "7501894",
+          "desc": "CREW MEMBER MINUTE",
+          "quantity": "200",
+          "indirectCode": "D : Wtg on DTE"
+        },
+        {
+          "unitPKId": "",
+          "unitId": "7503041",
+          "desc": "CREW MEMBER MINUTE OT PORTION",
+          "quantity": "100",
+          "indirectCode": "N : Municipal"
+        }
+      ]
+    }
+  ]
+}

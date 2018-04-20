@@ -1,0 +1,2916 @@
+{
+  "isSuccessful": true,
+  "indirectCodes": {
+    "OH": [
+      {
+        "desc": "A:Redesign"
+      },
+      {
+        "desc": "A:Travel"
+      },
+      {
+        "desc": "B:Planner"
+      },
+      {
+        "desc": "C:Engineer"
+      },
+      {
+        "desc": "D:Wtg TT"
+      },
+      {
+        "desc": "F:Wtg on DTE"
+      },
+      {
+        "desc": "G:Wtg Vac Trk"
+      },
+      {
+        "desc": "H:Wtg Traffic Mgmt"
+      },
+      {
+        "desc": "I:Operating"
+      },
+      {
+        "desc": "J:Pole"
+      },
+      {
+        "desc": "K:Premium OT"
+      },
+      {
+        "desc": "L:Premium DT"
+      },
+      {
+        "desc": "M:Other"
+      },
+      {
+        "desc": "N:Wtg on UG"
+      },
+      {
+        "desc": "O:Material Issue"
+      },
+      {
+        "desc": "P:Equip. Issue"
+      },
+      {
+        "desc": "Q:Cust. Issue"
+      },
+      {
+        "desc": "R:Municipal"
+      }
+    ],
+    "UG": [
+      {
+        "desc": "A:Redesign"
+      },
+      {
+        "desc": "A:Redesign"
+      },
+      {
+        "desc": "B:Engineer"
+      },
+      {
+        "desc": "D:Wtg on DTE"
+      },
+      {
+        "desc": "E:Wtg on DTE"
+      },
+      {
+        "desc": "F:Wtg on DTE"
+      },
+      {
+        "desc": "G:Wtg on DTE"
+      },
+      {
+        "desc": "H:Operating"
+      },
+      {
+        "desc": "I:Other"
+      },
+      {
+        "desc": "J:Transformer"
+      },
+      {
+        "desc": "K:Material Issue"
+      },
+      {
+        "desc": "L:Miss Dig"
+      },
+      {
+        "desc": "M:Customer Delay"
+      },
+      {
+        "desc": "N:Municipal"
+      },
+      {
+        "desc": "O:Pumping"
+      }
+    ]
+  },
+  "workType": "OH",
+  "serviceCenters": [
+    {
+      "id": "ANN",
+      "desc": "SW REGION"
+    },
+    {
+      "id": "CAN",
+      "desc": "SE REGION"
+    },
+    {
+      "id": "HWL",
+      "desc": "NW REGION"
+    },
+    {
+      "id": "LAP",
+      "desc": "NE REGION"
+    },
+    {
+      "id": "MAR",
+      "desc": "NE REGION"
+    },
+    {
+      "id": "MTC",
+      "desc": "NE REGION"
+    },
+    {
+      "id": "NAE",
+      "desc": "NE REGION"
+    },
+    {
+      "id": "NPT",
+      "desc": "SW REGION"
+    },
+    {
+      "id": "PON",
+      "desc": "NW REGION"
+    },
+    {
+      "id": "RFD",
+      "desc": "SE REGION"
+    },
+    {
+      "id": "SBY",
+      "desc": "NW REGION"
+    },
+    {
+      "id": "TBY",
+      "desc": "SW REGION"
+    },
+    {
+      "id": "WWS",
+      "desc": "SW REGION"
+    }
+  ],
+  "contracts": [
+    {
+      "crewRoles": [
+        {
+          "id": 6000077,
+          "desc": "DRIVER POLE HAUL"
+        },
+        {
+          "id": 6000078,
+          "desc": "DRVR/MAT HANDLER HA ."
+        },
+        {
+          "id": 6000098,
+          "desc": "GROUNDMAN ."
+        },
+        {
+          "id": 6000099,
+          "desc": "GROUNDMAN LINE CREW"
+        },
+        {
+          "id": 6000103,
+          "desc": "HELPER POLE HAUL"
+        },
+        {
+          "id": 6000157,
+          "desc": "LABORER FOREMAN"
+        },
+        {
+          "id": 6000179,
+          "desc": "LINEMAN APPRENTICE LEVEL 1"
+        },
+        {
+          "id": 6000180,
+          "desc": "LINEMAN APPRENTICE LEVEL 2"
+        },
+        {
+          "id": 6000181,
+          "desc": "LINEMAN APPRENTICE LEVEL 3"
+        },
+        {
+          "id": 6000182,
+          "desc": "LINEMAN APPRENTICE LEVEL 4"
+        },
+        {
+          "id": 6000183,
+          "desc": "LINEMAN APPRENTICE LEVEL 5"
+        },
+        {
+          "id": 6000184,
+          "desc": "LINEMAN APPRENTICE LEVEL 6"
+        },
+        {
+          "id": 6000185,
+          "desc": "LINEMAN APPRENTICE LEVEL 7"
+        },
+        {
+          "id": 6000189,
+          "desc": "LINEMAN FOREMAN A"
+        },
+        {
+          "id": 6000190,
+          "desc": "LINEMAN FOREMAN B"
+        },
+        {
+          "id": 6000191,
+          "desc": "LINEMAN FOREMAN C"
+        },
+        {
+          "id": 6000192,
+          "desc": "LINEMAN GENERAL FOREMAN"
+        },
+        {
+          "id": 6000193,
+          "desc": "LINEMAN GENERAL FOREMAN ASSI"
+        },
+        {
+          "id": 6000194,
+          "desc": "LINEMAN JOURNEYMAN"
+        },
+        {
+          "id": 6000195,
+          "desc": "LINEMAN SPECIALIST"
+        },
+        {
+          "id": 8000171,
+          "desc": "MEALS ."
+        },
+        {
+          "id": 6000198,
+          "desc": "MECHANIC ."
+        },
+        {
+          "id": 6000199,
+          "desc": "MECHANIC APPRENTICE LEVEL 1"
+        },
+        {
+          "id": 6000200,
+          "desc": "MECHANIC APPRENTICE LEVEL 2"
+        },
+        {
+          "id": 6000201,
+          "desc": "MECHANIC APPRENTICE LEVEL 3"
+        },
+        {
+          "id": 6000202,
+          "desc": "MECHANIC APPRENTICE LEVEL 4"
+        },
+        {
+          "id": 6000203,
+          "desc": "MECHANIC FOREMAN"
+        },
+        {
+          "id": 6000204,
+          "desc": "MECHANIC WELDER"
+        }
+      ],
+      "materials": [
+        {
+          "id": 8001231,
+          "desc": "SUNDRY MATERIAL",
+          "unSiz": null
+        }
+      ],
+      "matUSCL": [
+        
+      ],
+      "equipments": [
+        {
+          "id": 8000049,
+          "desc": "AERIAL TRACKED",
+          "unSiz": null
+        },
+        {
+          "id": 8000078,
+          "desc": "AIR COMPRESSOR W/TOOLS",
+          "unSiz": null
+        },
+        {
+          "id": 8000230,
+          "desc": "ARROW BOARD FLASHING",
+          "unSiz": null
+        },
+        {
+          "id": 8000252,
+          "desc": "AUGER TRUCK MOUNTED",
+          "unSiz": null
+        },
+        {
+          "id": 8000503,
+          "desc": "BOOM TRUCK W/KNUCKLE BOOM",
+          "unSiz": null
+        },
+        {
+          "id": 8000590,
+          "desc": "BUCKET TRUCK .<53",
+          "unSiz": "<53"
+        },
+        {
+          "id": 8000590,
+          "desc": "BUCKET TRUCK .>53",
+          "unSiz": ">53"
+        },
+        {
+          "id": 8000593,
+          "desc": "BUCKET TRUCK W/MATERIAL HANDLER",
+          "unSiz": null
+        },
+        {
+          "id": 8000602,
+          "desc": "BULL WHEEL TENSIONR .28 IN",
+          "unSiz": "28 IN"
+        },
+        {
+          "id": 8000602,
+          "desc": "BULL WHEEL TENSIONR .48 IN",
+          "unSiz": "48 IN"
+        },
+        {
+          "id": 8000628,
+          "desc": "BULLDOZER W/WINCH",
+          "unSiz": null
+        },
+        {
+          "id": 8001468,
+          "desc": "FORKLIFT .",
+          "unSiz": null
+        },
+        {
+          "id": 8001544,
+          "desc": "HOIST CAPSTAN",
+          "unSiz": null
+        },
+        {
+          "id": 8001583,
+          "desc": "HYDRAULIC TRUCK .15 TON",
+          "unSiz": "15 TON"
+        },
+        {
+          "id": 8001583,
+          "desc": "HYDRAULIC TRUCK .30 TON",
+          "unSiz": "30 TON"
+        },
+        {
+          "id": 8001584,
+          "desc": "HYDRAULIC TRUCK SELF PROPELLED",
+          "unSiz": null
+        },
+        {
+          "id": 8001660,
+          "desc": "LINE TRUCK W/MOUNTED DERRICK",
+          "unSiz": null
+        },
+        {
+          "id": 8001677,
+          "desc": "LOADER W/BACKHOE",
+          "unSiz": null
+        },
+        {
+          "id": 8001748,
+          "desc": "MINI-DERRICK BACKYARD",
+          "unSiz": null
+        },
+        {
+          "id": 8001822,
+          "desc": "PICKUP TRUCK .",
+          "unSiz": null
+        },
+        {
+          "id": 8001823,
+          "desc": "PICKUP TRUCK 4 WHEEL DRIVE",
+          "unSiz": null
+        },
+        {
+          "id": 8001824,
+          "desc": "PICKUP TRUCK CREW CAB",
+          "unSiz": null
+        },
+        {
+          "id": 8001870,
+          "desc": "POLE TRAILER SINGLE AXLE",
+          "unSiz": null
+        },
+        {
+          "id": 8001871,
+          "desc": "POLE TRAILER TANDEM AXLE",
+          "unSiz": null
+        },
+        {
+          "id": 8001966,
+          "desc": "REEL STAND .HEAVY",
+          "unSiz": "HEAVY"
+        },
+        {
+          "id": 8001966,
+          "desc": "REEL STAND .LIGHT",
+          "unSiz": "LIGHT"
+        },
+        {
+          "id": 8002120,
+          "desc": "SPIDER CLIMBER .",
+          "unSiz": null
+        },
+        {
+          "id": 8002285,
+          "desc": "TRACTOR TRAILER 5TH WHEEL",
+          "unSiz": null
+        },
+        {
+          "id": 8002314,
+          "desc": "TRAILER LOWBOY 3 AXLE",
+          "unSiz": null
+        },
+        {
+          "id": 8002315,
+          "desc": "TRAILER LOWBOY DOUBLE AXLE",
+          "unSiz": null
+        },
+        {
+          "id": 8002316,
+          "desc": "TRAILER MATERIAL",
+          "unSiz": null
+        },
+        {
+          "id": 8002321,
+          "desc": "TRAILER TILT TOP",
+          "unSiz": null
+        },
+        {
+          "id": 8002510,
+          "desc": "WIRE PULLER POLE MOUNTED",
+          "unSiz": null
+        },
+        {
+          "id": 8002511,
+          "desc": "WIRE PULLER SINGLE DRUM",
+          "unSiz": null
+        },
+        {
+          "id": 8002512,
+          "desc": "WIRE PULLER W/TRAILER",
+          "unSiz": null
+        },
+        {
+          "id": 8002513,
+          "desc": "WIRE TRAILER DUAL",
+          "unSiz": null
+        },
+        {
+          "id": 8002514,
+          "desc": "WIRE TRAILER SINGLE",
+          "unSiz": null
+        }
+      ],
+      "crewMins": [
+        {
+          "id": 7501894,
+          "desc": "CREW MEMBER MINUTE"
+        },
+        {
+          "id": 7503041,
+          "desc": "CREW MEMBER MINUTE OT PORTION"
+        },
+        {
+          "id": 7503042,
+          "desc": "CREW MEMBER MINUTE DT PORTION"
+        }
+      ],
+      "eqUSCL": [
+        {
+          "id": "<53",
+          "desc": "<53"
+        },
+        {
+          "id": ">53",
+          "desc": ">53"
+        },
+        {
+          "id": "15 TON",
+          "desc": "15 TON"
+        },
+        {
+          "id": "28 IN",
+          "desc": "28 IN"
+        },
+        {
+          "id": "30 TON",
+          "desc": "30 TON"
+        },
+        {
+          "id": "48 IN",
+          "desc": "48 IN"
+        },
+        {
+          "id": "HEAVY",
+          "desc": "HEAVY"
+        },
+        {
+          "id": "LIGHT",
+          "desc": "LIGHT"
+        }
+      ],
+      "units": [
+        {
+          "id": 7501645,
+          "desc": "1008A"
+        },
+        {
+          "id": 7501646,
+          "desc": "1013A"
+        },
+        {
+          "id": 7501647,
+          "desc": "1017A"
+        },
+        {
+          "id": 7501648,
+          "desc": "1018A"
+        },
+        {
+          "id": 7501649,
+          "desc": "1020A"
+        },
+        {
+          "id": 7501650,
+          "desc": "1020D"
+        },
+        {
+          "id": 7504315,
+          "desc": "1023 SMART FAULT INDICATR-PRIM-SUBTRN"
+        },
+        {
+          "id": 7501651,
+          "desc": "1024B"
+        },
+        {
+          "id": 7501652,
+          "desc": "1026A"
+        },
+        {
+          "id": 7501653,
+          "desc": "1027X"
+        },
+        {
+          "id": 7501654,
+          "desc": "1028B"
+        },
+        {
+          "id": 7501655,
+          "desc": "1029A"
+        },
+        {
+          "id": 7501656,
+          "desc": "1029B"
+        },
+        {
+          "id": 7501657,
+          "desc": "1029C"
+        },
+        {
+          "id": 7501658,
+          "desc": "1032E"
+        },
+        {
+          "id": 7501587,
+          "desc": "1061"
+        },
+        {
+          "id": 7501659,
+          "desc": "1066B"
+        },
+        {
+          "id": 7501588,
+          "desc": "1067"
+        },
+        {
+          "id": 7501660,
+          "desc": "1067A"
+        },
+        {
+          "id": 7501589,
+          "desc": "1068"
+        },
+        {
+          "id": 7501590,
+          "desc": "1069"
+        },
+        {
+          "id": 7501661,
+          "desc": "1335B"
+        },
+        {
+          "id": 7501662,
+          "desc": "1335C"
+        },
+        {
+          "id": 7501663,
+          "desc": "13A10"
+        },
+        {
+          "id": 7501664,
+          "desc": "13A12"
+        },
+        {
+          "id": 7501665,
+          "desc": "13A12B"
+        },
+        {
+          "id": 7501666,
+          "desc": "13A13"
+        },
+        {
+          "id": 7501667,
+          "desc": "13A15A"
+        },
+        {
+          "id": 7501668,
+          "desc": "13A16"
+        },
+        {
+          "id": 7501669,
+          "desc": "13A17A"
+        },
+        {
+          "id": 7501670,
+          "desc": "13A18"
+        },
+        {
+          "id": 7501671,
+          "desc": "13A18A"
+        },
+        {
+          "id": 7501672,
+          "desc": "13A19"
+        },
+        {
+          "id": 7501673,
+          "desc": "13A19B"
+        },
+        {
+          "id": 7501674,
+          "desc": "13S30"
+        },
+        {
+          "id": 7501675,
+          "desc": "13S31B"
+        },
+        {
+          "id": 7501676,
+          "desc": "13S31C"
+        },
+        {
+          "id": 7501677,
+          "desc": "13S32A"
+        },
+        {
+          "id": 7501678,
+          "desc": "13S33"
+        },
+        {
+          "id": 7501679,
+          "desc": "13S35"
+        },
+        {
+          "id": 7501680,
+          "desc": "13S36A"
+        },
+        {
+          "id": 7501681,
+          "desc": "13S36C"
+        },
+        {
+          "id": 7501682,
+          "desc": "13S36D"
+        },
+        {
+          "id": 7501683,
+          "desc": "13S36E"
+        },
+        {
+          "id": 7501684,
+          "desc": "13S38"
+        },
+        {
+          "id": 7501685,
+          "desc": "13X20"
+        },
+        {
+          "id": 7501686,
+          "desc": "13X21B"
+        },
+        {
+          "id": 7501687,
+          "desc": "13X21C"
+        },
+        {
+          "id": 7501688,
+          "desc": "13X22"
+        },
+        {
+          "id": 7501689,
+          "desc": "13X23"
+        },
+        {
+          "id": 7501690,
+          "desc": "13X25"
+        },
+        {
+          "id": 7501691,
+          "desc": "13X26"
+        },
+        {
+          "id": 7501692,
+          "desc": "13X26C"
+        },
+        {
+          "id": 7501693,
+          "desc": "13X26D"
+        },
+        {
+          "id": 7501694,
+          "desc": "13X29"
+        },
+        {
+          "id": 7501695,
+          "desc": "13X30"
+        },
+        {
+          "id": 7501696,
+          "desc": "13X31B"
+        },
+        {
+          "id": 7501697,
+          "desc": "13X31C"
+        },
+        {
+          "id": 7501698,
+          "desc": "13X32"
+        },
+        {
+          "id": 7501699,
+          "desc": "13X33"
+        },
+        {
+          "id": 7501700,
+          "desc": "13X35"
+        },
+        {
+          "id": 7501701,
+          "desc": "13X36"
+        },
+        {
+          "id": 7501702,
+          "desc": "13X36C"
+        },
+        {
+          "id": 7501703,
+          "desc": "13X36D"
+        },
+        {
+          "id": 7501704,
+          "desc": "13X36E"
+        },
+        {
+          "id": 7501705,
+          "desc": "13X36F"
+        },
+        {
+          "id": 7501706,
+          "desc": "13X38"
+        },
+        {
+          "id": 7501707,
+          "desc": "13X39"
+        },
+        {
+          "id": 7501591,
+          "desc": "1408"
+        },
+        {
+          "id": 7501592,
+          "desc": "1411"
+        },
+        {
+          "id": 7501708,
+          "desc": "1430A"
+        },
+        {
+          "id": 7501709,
+          "desc": "1471A"
+        },
+        {
+          "id": 7501710,
+          "desc": "1488B"
+        },
+        {
+          "id": 7501711,
+          "desc": "1489A"
+        },
+        {
+          "id": 7501712,
+          "desc": "1489C"
+        },
+        {
+          "id": 7504320,
+          "desc": "1504A ARSTR PROTECT PRIMARY ARMLESS"
+        },
+        {
+          "id": 7504321,
+          "desc": "1504B ARSTR PROTECT PRIMARY CROSSARM"
+        },
+        {
+          "id": 7504322,
+          "desc": "1505A 40KV CROSSARM MOUNTED ARRESTER"
+        },
+        {
+          "id": 7501713,
+          "desc": "1505B"
+        },
+        {
+          "id": 7501714,
+          "desc": "1511A"
+        },
+        {
+          "id": 7501715,
+          "desc": "1512A"
+        },
+        {
+          "id": 7501716,
+          "desc": "1518H"
+        },
+        {
+          "id": 7501717,
+          "desc": "1518K"
+        },
+        {
+          "id": 7501718,
+          "desc": "1521 GRD SPARK GAP"
+        },
+        {
+          "id": 7501720,
+          "desc": "1530A"
+        },
+        {
+          "id": 7501721,
+          "desc": "1532A"
+        },
+        {
+          "id": 7501730,
+          "desc": "1609D"
+        },
+        {
+          "id": 7501594,
+          "desc": "1648"
+        },
+        {
+          "id": 7501595,
+          "desc": "1713"
+        },
+        {
+          "id": 7501731,
+          "desc": "1716A"
+        },
+        {
+          "id": 7501596,
+          "desc": "1719"
+        },
+        {
+          "id": 7501597,
+          "desc": "1723"
+        },
+        {
+          "id": 7501598,
+          "desc": "1727"
+        },
+        {
+          "id": 7501599,
+          "desc": "1729"
+        },
+        {
+          "id": 7501600,
+          "desc": "1730"
+        },
+        {
+          "id": 7501601,
+          "desc": "1732"
+        },
+        {
+          "id": 7501732,
+          "desc": "1732B"
+        },
+        {
+          "id": 7501602,
+          "desc": "1737"
+        },
+        {
+          "id": 7501603,
+          "desc": "1738"
+        },
+        {
+          "id": 7501604,
+          "desc": "1760"
+        },
+        {
+          "id": 7501733,
+          "desc": "1795A"
+        },
+        {
+          "id": 7501605,
+          "desc": "1901"
+        },
+        {
+          "id": 7501606,
+          "desc": "1902"
+        },
+        {
+          "id": 7501607,
+          "desc": "1903"
+        },
+        {
+          "id": 7501571,
+          "desc": "1907"
+        },
+        {
+          "id": 7501734,
+          "desc": "1909A"
+        },
+        {
+          "id": 7501735,
+          "desc": "1909B"
+        },
+        {
+          "id": 7501736,
+          "desc": "1910A"
+        },
+        {
+          "id": 7501737,
+          "desc": "1910B"
+        },
+        {
+          "id": 7501572,
+          "desc": "1912"
+        },
+        {
+          "id": 7501573,
+          "desc": "1916"
+        },
+        {
+          "id": 7501574,
+          "desc": "1921"
+        },
+        {
+          "id": 7501575,
+          "desc": "1922"
+        },
+        {
+          "id": 7501576,
+          "desc": "1923"
+        },
+        {
+          "id": 7501577,
+          "desc": "1924"
+        },
+        {
+          "id": 7501578,
+          "desc": "1925"
+        },
+        {
+          "id": 7501579,
+          "desc": "1926"
+        },
+        {
+          "id": 7501610,
+          "desc": "1927"
+        },
+        {
+          "id": 7501611,
+          "desc": "1930"
+        },
+        {
+          "id": 7501612,
+          "desc": "1931"
+        },
+        {
+          "id": 7501738,
+          "desc": "1937E"
+        },
+        {
+          "id": 7501739,
+          "desc": "1937F"
+        },
+        {
+          "id": 7501613,
+          "desc": "1938"
+        },
+        {
+          "id": 7501614,
+          "desc": "1944"
+        },
+        {
+          "id": 7501615,
+          "desc": "1947"
+        },
+        {
+          "id": 7501616,
+          "desc": "1948"
+        },
+        {
+          "id": 7501740,
+          "desc": "1948A"
+        },
+        {
+          "id": 7501617,
+          "desc": "1954"
+        },
+        {
+          "id": 7501618,
+          "desc": "1955"
+        },
+        {
+          "id": 7501619,
+          "desc": "1957"
+        },
+        {
+          "id": 7501620,
+          "desc": "1959"
+        },
+        {
+          "id": 7501741,
+          "desc": "1960C"
+        },
+        {
+          "id": 7501742,
+          "desc": "1970B"
+        },
+        {
+          "id": 7501621,
+          "desc": "1971"
+        },
+        {
+          "id": 7501622,
+          "desc": "1973"
+        },
+        {
+          "id": 7501623,
+          "desc": "1974"
+        },
+        {
+          "id": 7501624,
+          "desc": "1975"
+        },
+        {
+          "id": 7501625,
+          "desc": "1976"
+        },
+        {
+          "id": 7501743,
+          "desc": "1PH HNDRX SPACER"
+        },
+        {
+          "id": 7501626,
+          "desc": "2007"
+        },
+        {
+          "id": 7501627,
+          "desc": "2008"
+        },
+        {
+          "id": 7501628,
+          "desc": "2021"
+        },
+        {
+          "id": 7501744,
+          "desc": "2022A"
+        },
+        {
+          "id": 7501745,
+          "desc": "2022G"
+        },
+        {
+          "id": 7501746,
+          "desc": "2022J"
+        },
+        {
+          "id": 7501747,
+          "desc": "2022K"
+        },
+        {
+          "id": 7501748,
+          "desc": "2023A"
+        },
+        {
+          "id": 7501749,
+          "desc": "2023C"
+        },
+        {
+          "id": 7501750,
+          "desc": "2024E"
+        },
+        {
+          "id": 7501751,
+          "desc": "2025A"
+        },
+        {
+          "id": 7501752,
+          "desc": "2039A"
+        },
+        {
+          "id": 7501753,
+          "desc": "2111A"
+        },
+        {
+          "id": 7501754,
+          "desc": "2112A"
+        },
+        {
+          "id": 7501755,
+          "desc": "2116A"
+        },
+        {
+          "id": 7501756,
+          "desc": "2116B"
+        },
+        {
+          "id": 7501757,
+          "desc": "2117A"
+        },
+        {
+          "id": 7501758,
+          "desc": "2118A"
+        },
+        {
+          "id": 7501759,
+          "desc": "2125A"
+        },
+        {
+          "id": 7504330,
+          "desc": "25A10A PRIM 1 PH TANGENT"
+        },
+        {
+          "id": 7504221,
+          "desc": "25A10B PRIM 1 PH TANGENT W/FIBER EXT"
+        },
+        {
+          "id": 7504223,
+          "desc": "25A10C PRIM 1 PH TANGENT UNDERBUILD"
+        },
+        {
+          "id": 7504220,
+          "desc": "25A11A PRIM 1 PH GUYED ANG TO 20 DEG"
+        },
+        {
+          "id": 7504222,
+          "desc": "25A11B PRIM 1 PH ANG TO 20D W/FBR EXT"
+        },
+        {
+          "id": 7504224,
+          "desc": "25A11C PRIM 1 PH ANG TO 20D UNDRBUILD"
+        },
+        {
+          "id": 7504229,
+          "desc": "25A12A PRIM 1 PH DE L-CRNR ANG 20-90 DEG"
+        },
+        {
+          "id": 7504227,
+          "desc": "25A12C PRIM 1 PH DE L-CORNER FULL TEN"
+        },
+        {
+          "id": 7504230,
+          "desc": "25A13A PRIM 1 PH DE FULL TENSION"
+        },
+        {
+          "id": 7504234,
+          "desc": "25A14A PRIM 1 PH CROSS BUCK"
+        },
+        {
+          "id": 7504225,
+          "desc": "25A15A PRIM 1 PH DE CHANGE - FULL TEN"
+        },
+        {
+          "id": 7504226,
+          "desc": "25A15B PRIM 1 PH DE CHANGE - SLACK"
+        },
+        {
+          "id": 7504232,
+          "desc": "25A16A PRIM 1 PH DE T-CRNR FULL TENSION"
+        },
+        {
+          "id": 7504231,
+          "desc": "25A19A PRIM 1 PH DE SLACK"
+        },
+        {
+          "id": 7504233,
+          "desc": "25A19B PRIM 1 PH DE T-CORNER SLACK"
+        },
+        {
+          "id": 7504228,
+          "desc": "25A19C PRIM 1 PH DE L-CORNER SLACK"
+        },
+        {
+          "id": 7504235,
+          "desc": "25A20A PRIM 1PH WYE TANGENT"
+        },
+        {
+          "id": 7504237,
+          "desc": "25A20B PRIM 1PH WYE TANGENT W/FIBER EXT"
+        },
+        {
+          "id": 7504239,
+          "desc": "25A20C PRIM 1PH WYE TANGENT UNDERBUILD"
+        },
+        {
+          "id": 7504241,
+          "desc": "25A20D PRIM 1PH WYE VERTICAL TANGENT"
+        },
+        {
+          "id": 7504236,
+          "desc": "25A21A PRIM 1PH WYE ANGLE UP TO 20 DEG"
+        },
+        {
+          "id": 7504238,
+          "desc": "25A21B PRIM 1PH WYE ANG TO 20D W/FBR EXT"
+        },
+        {
+          "id": 7504240,
+          "desc": "25A21C PRIM 1PH WYE ANG TO 20D UNDRBUILD"
+        },
+        {
+          "id": 7504242,
+          "desc": "25A21D PRIM 1PH WYE VERT ANGLE TO 20 DEG"
+        },
+        {
+          "id": 7504245,
+          "desc": "25A22A PRIM 1PH WYE L-CORNER FULL TEN"
+        },
+        {
+          "id": 7504247,
+          "desc": "25A22E PRIM 1PH WYE L-CRNR ANG 20-90 DEG"
+        },
+        {
+          "id": 7504250,
+          "desc": "25A23A PRIM 1PH WYE VERT DE FULL TENSION"
+        },
+        {
+          "id": 7504246,
+          "desc": "25A29A PRIM 1PH WYE L-CORNER SLACK"
+        },
+        {
+          "id": 7504251,
+          "desc": "25A29B PRIM 1PH WYE VERTICAL DE SLACK"
+        },
+        {
+          "id": 7504252,
+          "desc": "25A30A PRIM 3 PH TANGENT"
+        },
+        {
+          "id": 7504254,
+          "desc": "25A30B PRIM 3 PH TANGENT W/FIBER EXT"
+        },
+        {
+          "id": 7504256,
+          "desc": "25A30C PRIM 3 PH TANGENT"
+        },
+        {
+          "id": 7504258,
+          "desc": "25A30D PRIM 3 PH VERTICAL TANGENT"
+        },
+        {
+          "id": 7504266,
+          "desc": "25A30E PRIM 3 PH VERTICAL TANGENT"
+        },
+        {
+          "id": 7504253,
+          "desc": "25A31A PRIM 3 PH GUYED ANG TO 20 DEG"
+        },
+        {
+          "id": 7504255,
+          "desc": "25A31B PRIM 3 PH ANG TO 20D W/FBR EXT"
+        },
+        {
+          "id": 7504257,
+          "desc": "25A31C PRIM 3 PH GUYED ANG TO 20 DEG"
+        },
+        {
+          "id": 7504259,
+          "desc": "25A31D PRIM 3 PH VERT ANGLE TO 20 DEG"
+        },
+        {
+          "id": 7504267,
+          "desc": "25A31E PRIM 3 PH VERT ANGLE TO 20 DEG"
+        },
+        {
+          "id": 7504268,
+          "desc": "25A32A PRIM 3 PH DE L-CORNER FULL TEN"
+        },
+        {
+          "id": 7504270,
+          "desc": "25A32B PRIM 3 PH DE L-CRNR ANG 20-90 DEG"
+        },
+        {
+          "id": 7504271,
+          "desc": "25A33A PRIM 3 PH VERT DE FULL TENSION"
+        },
+        {
+          "id": 7504279,
+          "desc": "25A34A PRIM 3 PH TANGENT W/3 PH BUCK"
+        },
+        {
+          "id": 7504277,
+          "desc": "25A36A PRIM 3 PH T-CRNR FULL TENSION"
+        },
+        {
+          "id": 7504286,
+          "desc": "25A36B PRIM 3PH FRP DE-FRP TAN T-CNR TEN"
+        },
+        {
+          "id": 7504288,
+          "desc": "25A36C PRIM 3 PH DE VERTICAL-TAN T-CORNR"
+        },
+        {
+          "id": 7504289,
+          "desc": "25A37A PRIM 3 PH ARMLESS EQUIPMNT TAP"
+        },
+        {
+          "id": 7504272,
+          "desc": "25A39A PRIM 3 PH DE VERTICAL SLACK"
+        },
+        {
+          "id": 7504269,
+          "desc": "25A39B PRIM 3 PH DE L-CORNER SLACK"
+        },
+        {
+          "id": 7504278,
+          "desc": "25A39B PRIM 3 PH T-CORNER SLACK"
+        },
+        {
+          "id": 7504287,
+          "desc": "25A39E PRIM 3PH FRP DE-FRP TAN T-CNR SLK"
+        },
+        {
+          "id": 7504291,
+          "desc": "25S30A PRIM 3 PH SHIELDWIRE TANGENT"
+        },
+        {
+          "id": 7504293,
+          "desc": "25S30B PRIM 3PH FRP SHIELDWIRE TANGENT"
+        },
+        {
+          "id": 7504296,
+          "desc": "25S30C PRIM 3 PH SHIELDW VERT TANGENT"
+        },
+        {
+          "id": 7504292,
+          "desc": "25S31A PRIM 3 PH SHIELDW ANG TO 20DEG"
+        },
+        {
+          "id": 7504294,
+          "desc": "25S31B PRIM 3PH FRP SHIELDW ANG TO 20DEG"
+        },
+        {
+          "id": 7504297,
+          "desc": "25S31C PRIM 3 PH SHLDW VRT ANG TO 20D"
+        },
+        {
+          "id": 7504304,
+          "desc": "25S32A PRIM 3PH FRP SHLDW L-CRNR DE TEN"
+        },
+        {
+          "id": 7504305,
+          "desc": "25S32B PRIM 3PH FRP SHLDW L-CRNR DE SLAK"
+        },
+        {
+          "id": 7504298,
+          "desc": "25S33A PRIM 3 PH SHLDW VRT DE FUL TEN"
+        },
+        {
+          "id": 7504300,
+          "desc": "25S33B PRIM 3PH FRP SHLDW TRI DE FUL TEN"
+        },
+        {
+          "id": 7504302,
+          "desc": "25S33C PRIM 3PH FRP SHIELDW DE FULL TEN"
+        },
+        {
+          "id": 7504308,
+          "desc": "25S35A PRIM 3PH FRP SHLDW DBL DE FUL TEN"
+        },
+        {
+          "id": 7504309,
+          "desc": "25S35B PRIM 3PH FRP SHLDW DBL DE SLACK"
+        },
+        {
+          "id": 7504306,
+          "desc": "25S36A PRIM 3PH FRP SHLDW T-CRNR DE TEN"
+        },
+        {
+          "id": 7504307,
+          "desc": "25S36B PRIM 3PH FRP SHLDW T-CRNR DE SLAK"
+        },
+        {
+          "id": 7504313,
+          "desc": "25S37C PRIM 3 PH SHIELDW ARMLS EQUIP"
+        },
+        {
+          "id": 7504310,
+          "desc": "25S38 PRIM 3 PH FRP SHLDW TAN RR-DMG LMT"
+        },
+        {
+          "id": 7504299,
+          "desc": "25S39A PRIM 3 PH SHIELDW VRT DE SLACK"
+        },
+        {
+          "id": 7504301,
+          "desc": "25S39B PRIM 3PH FRP SHLDW TRI DE SLACK"
+        },
+        {
+          "id": 7504303,
+          "desc": "25S39C PRIM 3PH FRP SHIELDW DE SLACK"
+        },
+        {
+          "id": 7504248,
+          "desc": "25X20A PRIM 1PH WYE FRP TANGENT"
+        },
+        {
+          "id": 7504249,
+          "desc": "25X21A PRIM 1PH WYE FRP ANG TO 20 DEG"
+        },
+        {
+          "id": 7504340,
+          "desc": "25X23A PRIM 1PH WYE DE FRP FULL TENSION"
+        },
+        {
+          "id": 7504243,
+          "desc": "25X25A PRIM 1PH WYE DE FRP FULL TENSION"
+        },
+        {
+          "id": 7504244,
+          "desc": "25X25B PRIM 1PH WYE DE FRP SLACK"
+        },
+        {
+          "id": 7504341,
+          "desc": "25X29B PRIM 1PH WYE DE FRP SLACK"
+        },
+        {
+          "id": 7504260,
+          "desc": "25X30A PRIM 3PH FRP TANGENT"
+        },
+        {
+          "id": 7504261,
+          "desc": "25X31A PRIM 3PH FRP GUYED ANG TO 20 DEG"
+        },
+        {
+          "id": 7504284,
+          "desc": "25X32A PRIM 3PH FRP L-CORNER FULL TEN"
+        },
+        {
+          "id": 7504275,
+          "desc": "25X33A PRIM 3PH FRP DE FULL TENSION"
+        },
+        {
+          "id": 7504273,
+          "desc": "25X33B PRIM 3PH FRP TRIANGLR DE FULL TEN"
+        },
+        {
+          "id": 7504262,
+          "desc": "25X35A PRIM 3PH FRP DE CHANGE FULL TEN"
+        },
+        {
+          "id": 7504263,
+          "desc": "25X35B PRIM 3PH FRP DE CHANGE SLACK"
+        },
+        {
+          "id": 7504264,
+          "desc": "25X35C PRIM 3PH FRP TRIANGLR DE FULL TEN"
+        },
+        {
+          "id": 7504265,
+          "desc": "25X35D PRIM 3PH FRP TRIANGULAR DE SLACK"
+        },
+        {
+          "id": 7504282,
+          "desc": "25X35E PRIM 3PH FRP DE-1 PH DE FULL TEN"
+        },
+        {
+          "id": 7504283,
+          "desc": "25X35F PRIM 3PH FRP DE-1 PH DE SLACK"
+        },
+        {
+          "id": 7504280,
+          "desc": "25X36A PRIM 3PH FRP DE-TAN T-CRNR FL TEN"
+        },
+        {
+          "id": 7504314,
+          "desc": "25X36C PRIM 3PH FRP TANGENT CROSSBUCK"
+        },
+        {
+          "id": 7504312,
+          "desc": "25X37B PRIM 3PH FRP DE SECTIONALIZNG"
+        },
+        {
+          "id": 7504290,
+          "desc": "25X37C PRIM 3PH FRP EQUIPMENT DETAIL"
+        },
+        {
+          "id": 7504311,
+          "desc": "25X38 PRIM 3 PH FRP TAN RR-DAMAGE LMTR"
+        },
+        {
+          "id": 7504276,
+          "desc": "25X39A PRIM 3PH FRP DE SLACK"
+        },
+        {
+          "id": 7504274,
+          "desc": "25X39B PRIM 3PH FRP TRIANGULAR DE SLACK"
+        },
+        {
+          "id": 7504281,
+          "desc": "25X39C PRIM 3PH FRP DE-TAN T-CRNR SLACK"
+        },
+        {
+          "id": 7504285,
+          "desc": "25X39D PRIM 3PH FRP L-CORNER SLACK"
+        },
+        {
+          "id": 7501760,
+          "desc": "2702B"
+        },
+        {
+          "id": 7501761,
+          "desc": "2705A"
+        },
+        {
+          "id": 7501762,
+          "desc": "2705B"
+        },
+        {
+          "id": 7501629,
+          "desc": "2716"
+        },
+        {
+          "id": 7501763,
+          "desc": "2716B"
+        },
+        {
+          "id": 7501630,
+          "desc": "2717"
+        },
+        {
+          "id": 7501764,
+          "desc": "2717B"
+        },
+        {
+          "id": 7501765,
+          "desc": "2718A"
+        },
+        {
+          "id": 7501766,
+          "desc": "2718B"
+        },
+        {
+          "id": 7501767,
+          "desc": "2718C"
+        },
+        {
+          "id": 7501768,
+          "desc": "2718D"
+        },
+        {
+          "id": 7501769,
+          "desc": "2718E"
+        },
+        {
+          "id": 7501770,
+          "desc": "2718F"
+        },
+        {
+          "id": 7501631,
+          "desc": "2719"
+        },
+        {
+          "id": 7501771,
+          "desc": "2719A"
+        },
+        {
+          "id": 7501772,
+          "desc": "2719B"
+        },
+        {
+          "id": 7501773,
+          "desc": "2719C"
+        },
+        {
+          "id": 7501774,
+          "desc": "2719E"
+        },
+        {
+          "id": 7501632,
+          "desc": "2720"
+        },
+        {
+          "id": 7501775,
+          "desc": "2720B"
+        },
+        {
+          "id": 7501633,
+          "desc": "2721"
+        },
+        {
+          "id": 7501776,
+          "desc": "2722A"
+        },
+        {
+          "id": 7501777,
+          "desc": "2722B"
+        },
+        {
+          "id": 7501778,
+          "desc": "2722C"
+        },
+        {
+          "id": 7501779,
+          "desc": "2722D"
+        },
+        {
+          "id": 7501780,
+          "desc": "2723A"
+        },
+        {
+          "id": 7501781,
+          "desc": "2723B"
+        },
+        {
+          "id": 7501782,
+          "desc": "2723C"
+        },
+        {
+          "id": 7501783,
+          "desc": "2723D"
+        },
+        {
+          "id": 7501784,
+          "desc": "2724A"
+        },
+        {
+          "id": 7501785,
+          "desc": "2724B"
+        },
+        {
+          "id": 7501786,
+          "desc": "2724C"
+        },
+        {
+          "id": 7501787,
+          "desc": "2724D"
+        },
+        {
+          "id": 7501788,
+          "desc": "2724E"
+        },
+        {
+          "id": 7501789,
+          "desc": "2724F"
+        },
+        {
+          "id": 7501790,
+          "desc": "2724G"
+        },
+        {
+          "id": 7501791,
+          "desc": "2725A"
+        },
+        {
+          "id": 7501792,
+          "desc": "2725B"
+        },
+        {
+          "id": 7501793,
+          "desc": "2725C"
+        },
+        {
+          "id": 7501794,
+          "desc": "2725D"
+        },
+        {
+          "id": 7501795,
+          "desc": "2725E"
+        },
+        {
+          "id": 7501796,
+          "desc": "2725F"
+        },
+        {
+          "id": 7501634,
+          "desc": "2726"
+        },
+        {
+          "id": 7501635,
+          "desc": "2727"
+        },
+        {
+          "id": 7501797,
+          "desc": "2727B"
+        },
+        {
+          "id": 7501636,
+          "desc": "2728"
+        },
+        {
+          "id": 7501637,
+          "desc": "2729"
+        },
+        {
+          "id": 7501798,
+          "desc": "2729B"
+        },
+        {
+          "id": 7501638,
+          "desc": "2730"
+        },
+        {
+          "id": 7501639,
+          "desc": "2731"
+        },
+        {
+          "id": 7501799,
+          "desc": "2731B"
+        },
+        {
+          "id": 7501640,
+          "desc": "2732"
+        },
+        {
+          "id": 7501800,
+          "desc": "2732B"
+        },
+        {
+          "id": 7501801,
+          "desc": "2732C"
+        },
+        {
+          "id": 7501802,
+          "desc": "2732D"
+        },
+        {
+          "id": 7501641,
+          "desc": "2733"
+        },
+        {
+          "id": 7501803,
+          "desc": "2733B"
+        },
+        {
+          "id": 7501642,
+          "desc": "2734"
+        },
+        {
+          "id": 7501804,
+          "desc": "2734B"
+        },
+        {
+          "id": 7501643,
+          "desc": "2735"
+        },
+        {
+          "id": 7501805,
+          "desc": "2735B"
+        },
+        {
+          "id": 7501644,
+          "desc": "2739"
+        },
+        {
+          "id": 7501806,
+          "desc": "2739A"
+        },
+        {
+          "id": 7501807,
+          "desc": "2739B"
+        },
+        {
+          "id": 7501808,
+          "desc": "3PH HNDRX SPACER"
+        },
+        {
+          "id": 7501809,
+          "desc": "5C20B"
+        },
+        {
+          "id": 7501810,
+          "desc": "5C22A"
+        },
+        {
+          "id": 7501811,
+          "desc": "5C23"
+        },
+        {
+          "id": 7501812,
+          "desc": "5C25"
+        },
+        {
+          "id": 7501813,
+          "desc": "5D10"
+        },
+        {
+          "id": 7501814,
+          "desc": "5D11A"
+        },
+        {
+          "id": 7501815,
+          "desc": "5D12A"
+        },
+        {
+          "id": 7501816,
+          "desc": "5D12C"
+        },
+        {
+          "id": 7501817,
+          "desc": "5D14"
+        },
+        {
+          "id": 7501818,
+          "desc": "5D15"
+        },
+        {
+          "id": 7501819,
+          "desc": "5D15B"
+        },
+        {
+          "id": 7501820,
+          "desc": "5D17"
+        },
+        {
+          "id": 7501821,
+          "desc": "5D17A"
+        },
+        {
+          "id": 7501822,
+          "desc": "5D19"
+        },
+        {
+          "id": 7501823,
+          "desc": "5G20"
+        },
+        {
+          "id": 7501824,
+          "desc": "5G21A"
+        },
+        {
+          "id": 7501825,
+          "desc": "5G21B"
+        },
+        {
+          "id": 7501826,
+          "desc": "5G21C"
+        },
+        {
+          "id": 7501827,
+          "desc": "5G22A"
+        },
+        {
+          "id": 7501828,
+          "desc": "5G23"
+        },
+        {
+          "id": 7501829,
+          "desc": "5G25"
+        },
+        {
+          "id": 7501830,
+          "desc": "5G26"
+        },
+        {
+          "id": 7501831,
+          "desc": "5G27A"
+        },
+        {
+          "id": 7501832,
+          "desc": "5G29"
+        },
+        {
+          "id": 7501833,
+          "desc": "5X20"
+        },
+        {
+          "id": 7501834,
+          "desc": "5X21A"
+        },
+        {
+          "id": 7501835,
+          "desc": "5X21B"
+        },
+        {
+          "id": 7501836,
+          "desc": "5X21C"
+        },
+        {
+          "id": 7501837,
+          "desc": "5X22A"
+        },
+        {
+          "id": 7501838,
+          "desc": "5X23"
+        },
+        {
+          "id": 7501839,
+          "desc": "5X25"
+        },
+        {
+          "id": 7501840,
+          "desc": "5X26A"
+        },
+        {
+          "id": 7501841,
+          "desc": "5X26B"
+        },
+        {
+          "id": 7501842,
+          "desc": "5X26C"
+        },
+        {
+          "id": 7501843,
+          "desc": "5X29"
+        },
+        {
+          "id": 7501844,
+          "desc": "5X29A"
+        },
+        {
+          "id": 7501845,
+          "desc": "5X30"
+        },
+        {
+          "id": 7501846,
+          "desc": "5X31A"
+        },
+        {
+          "id": 7501847,
+          "desc": "5X31B"
+        },
+        {
+          "id": 7501848,
+          "desc": "5X31C"
+        },
+        {
+          "id": 7501849,
+          "desc": "5X32A"
+        },
+        {
+          "id": 7501850,
+          "desc": "5X33"
+        },
+        {
+          "id": 7501851,
+          "desc": "5X35"
+        },
+        {
+          "id": 7501852,
+          "desc": "5X35A"
+        },
+        {
+          "id": 7501853,
+          "desc": "5X36A"
+        },
+        {
+          "id": 7501854,
+          "desc": "5X36B"
+        },
+        {
+          "id": 7501855,
+          "desc": "5X36C"
+        },
+        {
+          "id": 7501856,
+          "desc": "5X38"
+        },
+        {
+          "id": 7501857,
+          "desc": "5X39"
+        },
+        {
+          "id": 7501858,
+          "desc": "5X39A"
+        },
+        {
+          "id": 7501859,
+          "desc": "602C"
+        },
+        {
+          "id": 7501860,
+          "desc": "602D"
+        },
+        {
+          "id": 7501861,
+          "desc": "605C"
+        },
+        {
+          "id": 7501862,
+          "desc": "605D"
+        },
+        {
+          "id": 7501863,
+          "desc": "606A"
+        },
+        {
+          "id": 7501864,
+          "desc": "607A"
+        },
+        {
+          "id": 7501865,
+          "desc": "607B"
+        },
+        {
+          "id": 7501866,
+          "desc": "608A"
+        },
+        {
+          "id": 7501867,
+          "desc": "608C"
+        },
+        {
+          "id": 7501868,
+          "desc": "608D"
+        },
+        {
+          "id": 7501869,
+          "desc": "608E"
+        },
+        {
+          "id": 7501870,
+          "desc": "609A"
+        },
+        {
+          "id": 7501871,
+          "desc": "609B"
+        },
+        {
+          "id": 7501872,
+          "desc": "609C"
+        },
+        {
+          "id": 7501873,
+          "desc": "609D"
+        },
+        {
+          "id": 7501874,
+          "desc": "610A"
+        },
+        {
+          "id": 7501875,
+          "desc": "610B"
+        },
+        {
+          "id": 7501876,
+          "desc": "610C"
+        },
+        {
+          "id": 7501877,
+          "desc": "611A"
+        },
+        {
+          "id": 7501878,
+          "desc": "611B"
+        },
+        {
+          "id": 7501879,
+          "desc": "611C"
+        },
+        {
+          "id": 7501880,
+          "desc": "611D"
+        },
+        {
+          "id": 7501881,
+          "desc": "612A"
+        },
+        {
+          "id": 7501882,
+          "desc": "613A"
+        },
+        {
+          "id": 7501883,
+          "desc": "616A"
+        },
+        {
+          "id": 7501570,
+          "desc": "906"
+        },
+        {
+          "id": 7501581,
+          "desc": "921"
+        },
+        {
+          "id": 7501582,
+          "desc": "932"
+        },
+        {
+          "id": 7501583,
+          "desc": "934"
+        },
+        {
+          "id": 7501884,
+          "desc": "934A"
+        },
+        {
+          "id": 7501885,
+          "desc": "934B"
+        },
+        {
+          "id": 7501886,
+          "desc": "934C"
+        },
+        {
+          "id": 7501584,
+          "desc": "935"
+        },
+        {
+          "id": 7501887,
+          "desc": "935A"
+        },
+        {
+          "id": 7501888,
+          "desc": "940A"
+        },
+        {
+          "id": 7501889,
+          "desc": "940E"
+        },
+        {
+          "id": 7501585,
+          "desc": "952"
+        },
+        {
+          "id": 7501586,
+          "desc": "985"
+        },
+        {
+          "id": 7501890,
+          "desc": "BACKYARD MACHINE"
+        },
+        {
+          "id": 7501891,
+          "desc": "BOGSHOE HVY"
+        },
+        {
+          "id": 7501892,
+          "desc": "BOGSHOE LT"
+        },
+        {
+          "id": 7501893,
+          "desc": "BREAK CONCRETE"
+        },
+        {
+          "id": 7502981,
+          "desc": "BRING TRANSFORMER TO SPECIFICATION"
+        },
+        {
+          "id": 7504316,
+          "desc": "COMPRESSION SLEEVES 336 TO 636"
+        },
+        {
+          "id": 7504317,
+          "desc": "COMPRESSION SLEEVES 795+"
+        },
+        {
+          "id": 7504318,
+          "desc": "COMPRESSION SLEEVES SMALLER THAN 336"
+        },
+        {
+          "id": 7500299,
+          "desc": "CONTRACTOR $0 ITEM"
+        },
+        {
+          "id": 7501895,
+          "desc": "DEEN AND REEN TRFMR"
+        },
+        {
+          "id": 7503785,
+          "desc": "DET 13A10 PT BKT BG"
+        },
+        {
+          "id": 7503786,
+          "desc": "DET 13A13 BG"
+        },
+        {
+          "id": 7503753,
+          "desc": "DET 13A13A BG"
+        },
+        {
+          "id": 7503754,
+          "desc": "DET 13S30 BG"
+        },
+        {
+          "id": 7503755,
+          "desc": "DET 13S31A BG"
+        },
+        {
+          "id": 7503756,
+          "desc": "DET 13S31B BG"
+        },
+        {
+          "id": 7503757,
+          "desc": "DET 13S31C BG"
+        },
+        {
+          "id": 7503758,
+          "desc": "DET 13S33 BG"
+        },
+        {
+          "id": 7503759,
+          "desc": "DET 13S35 BG"
+        },
+        {
+          "id": 7503762,
+          "desc": "DET 13S38 BG"
+        },
+        {
+          "id": 7503763,
+          "desc": "DET 13S39 BG"
+        },
+        {
+          "id": 7503764,
+          "desc": "DET 13X23 BG"
+        },
+        {
+          "id": 7503765,
+          "desc": "DET 13X30 BG"
+        },
+        {
+          "id": 7503766,
+          "desc": "DET 13X33 BG"
+        },
+        {
+          "id": 7503767,
+          "desc": "DET 13X39 BG"
+        },
+        {
+          "id": 7503774,
+          "desc": "DET 5D12C BG"
+        },
+        {
+          "id": 7503775,
+          "desc": "DET 5D17 BG"
+        },
+        {
+          "id": 7503776,
+          "desc": "DET 5G20 BG"
+        },
+        {
+          "id": 7503777,
+          "desc": "DET 5G23 BG"
+        },
+        {
+          "id": 7503778,
+          "desc": "DET 5G29 BG"
+        },
+        {
+          "id": 7503781,
+          "desc": "DET 5X21C BG"
+        },
+        {
+          "id": 7503782,
+          "desc": "DET 5X31A BG"
+        },
+        {
+          "id": 7503783,
+          "desc": "DET 5X31B BG"
+        },
+        {
+          "id": 7503784,
+          "desc": "DET 5X31C BG"
+        },
+        {
+          "id": 7503789,
+          "desc": "DET 5X31C WO/JMP BG"
+        },
+        {
+          "id": 7503779,
+          "desc": "DET 5X33 BG"
+        },
+        {
+          "id": 7503780,
+          "desc": "DET 5X39 BG"
+        },
+        {
+          "id": 7501896,
+          "desc": "ENERG GLOVE"
+        },
+        {
+          "id": 7501897,
+          "desc": "ENERG HOTSTICK"
+        },
+        {
+          "id": 7501898,
+          "desc": "ENERG POLE INSTALL"
+        },
+        {
+          "id": 7501899,
+          "desc": "FLEX TRACK"
+        },
+        {
+          "id": 7501900,
+          "desc": "HAND DIG"
+        },
+        {
+          "id": 7501901,
+          "desc": "HNDRX 336 TH 636 AP"
+        },
+        {
+          "id": 7501902,
+          "desc": "HNDRX 336 TH 636 SL"
+        },
+        {
+          "id": 7501903,
+          "desc": "HNDRX 795 OR LGR AP"
+        },
+        {
+          "id": 7501904,
+          "desc": "HNDRX 795 OR LGR SL"
+        },
+        {
+          "id": 7501719,
+          "desc": "HNDRX MESGR AP"
+        },
+        {
+          "id": 7501910,
+          "desc": "HNDRX MESGR SL"
+        },
+        {
+          "id": 7501911,
+          "desc": "HNDRX SML TH 336 AP"
+        },
+        {
+          "id": 7501912,
+          "desc": "HNDRX SML TH 336 SL"
+        },
+        {
+          "id": 7501913,
+          "desc": "IN POLE 25 TO 35"
+        },
+        {
+          "id": 7501914,
+          "desc": "IN POLE 40 TO 50"
+        },
+        {
+          "id": 7501915,
+          "desc": "IN POLE 55 TO 65"
+        },
+        {
+          "id": 7501916,
+          "desc": "IN POLE 70 TO 80"
+        },
+        {
+          "id": 7501917,
+          "desc": "IN POLE 85 TO 100"
+        },
+        {
+          "id": 7502982,
+          "desc": "INSTALL / REMOVE METER"
+        },
+        {
+          "id": 7502980,
+          "desc": "INSTALL BARREL"
+        },
+        {
+          "id": 7501918,
+          "desc": "NONTRUCK ACCESSIBLE"
+        },
+        {
+          "id": 7000992,
+          "desc": "OVERHEAD CNSTRUC FIXED PAYMENT JOB"
+        },
+        {
+          "id": 7504000,
+          "desc": "POLE CUT"
+        },
+        {
+          "id": 7501919,
+          "desc": "POLE HAUL"
+        },
+        {
+          "id": 7503751,
+          "desc": "PRIMARY JUMPERS 336 TO 636"
+        },
+        {
+          "id": 7503752,
+          "desc": "PRIMARY JUMPERS 795 AND LARGER"
+        },
+        {
+          "id": 7503750,
+          "desc": "PRIMARY JUMPERS SMALLER THAN 336"
+        },
+        {
+          "id": 7501920,
+          "desc": "PTM CORR EXP ANCR"
+        },
+        {
+          "id": 7501921,
+          "desc": "PTM CORR GUY ANCHOR"
+        },
+        {
+          "id": 7501922,
+          "desc": "PTM CORR LEAN POLE"
+        },
+        {
+          "id": 7501923,
+          "desc": "PTM CORR PRIM SAG"
+        },
+        {
+          "id": 7501924,
+          "desc": "PTM CORR SEC SAG"
+        },
+        {
+          "id": 7501925,
+          "desc": "PTM CORR SERV SAG"
+        },
+        {
+          "id": 7501926,
+          "desc": "PTM CORR SLACK GUY"
+        },
+        {
+          "id": 7501927,
+          "desc": "PTM CORR SLIPPD PIN"
+        },
+        {
+          "id": 7501928,
+          "desc": "PTM CORR SPACER BLK"
+        },
+        {
+          "id": 7501929,
+          "desc": "PTM CORR WRAPPD SEC"
+        },
+        {
+          "id": 7501930,
+          "desc": "PTM DRIVE AND SETUP"
+        },
+        {
+          "id": 7501931,
+          "desc": "PTM REP BKN GRD WIR"
+        },
+        {
+          "id": 7501932,
+          "desc": "PTM REP BKN JON BAL"
+        },
+        {
+          "id": 7501933,
+          "desc": "PTM REP BKN NEU TAP"
+        },
+        {
+          "id": 7501934,
+          "desc": "PTM REP FOR GUY"
+        },
+        {
+          "id": 7501935,
+          "desc": "PTM REP PRIM GUY"
+        },
+        {
+          "id": 7501936,
+          "desc": "PTM REP SEC GUY"
+        },
+        {
+          "id": 7501937,
+          "desc": "PTM REP STLT OR OPL"
+        },
+        {
+          "id": 7501938,
+          "desc": "PTM REP SUBTR GUY"
+        },
+        {
+          "id": 7501939,
+          "desc": "PTM REPL 13 2 ARR"
+        },
+        {
+          "id": 7501940,
+          "desc": "PTM REPL 1PH DURAB"
+        },
+        {
+          "id": 7501942,
+          "desc": "PTM REPL 40 ARR"
+        },
+        {
+          "id": 7501941,
+          "desc": "PTM REPL 48 ARR"
+        },
+        {
+          "id": 7501943,
+          "desc": "PTM REPL ABC CUTOUT"
+        },
+        {
+          "id": 7501944,
+          "desc": "PTM REPL AUTO SLEEV"
+        },
+        {
+          "id": 7501945,
+          "desc": "PTM REPL BLACKBNTAP"
+        },
+        {
+          "id": 7501946,
+          "desc": "PTM REPL GRD WIRMLD"
+        },
+        {
+          "id": 7501947,
+          "desc": "PTM REPL GUY GUARD"
+        },
+        {
+          "id": 7501948,
+          "desc": "PTM REPL INS BOLT"
+        },
+        {
+          "id": 7501949,
+          "desc": "PTM REPL INS DISK"
+        },
+        {
+          "id": 7501950,
+          "desc": "PTM REPL INS NUT"
+        },
+        {
+          "id": 7501951,
+          "desc": "PTM REPL INS PIN"
+        },
+        {
+          "id": 7501952,
+          "desc": "PTM REPL LP INS"
+        },
+        {
+          "id": 7501953,
+          "desc": "PTM REPL LP INS AP"
+        },
+        {
+          "id": 7501954,
+          "desc": "PTM REPL NEUSPL BLT"
+        },
+        {
+          "id": 7501955,
+          "desc": "PTM REPL NEUSPL NUT"
+        },
+        {
+          "id": 7501956,
+          "desc": "PTM REPL PRIM FUSE"
+        },
+        {
+          "id": 7501957,
+          "desc": "PTM REPL SEC RACK"
+        },
+        {
+          "id": 7501958,
+          "desc": "PTM REPL SEC RK BLT"
+        },
+        {
+          "id": 7501959,
+          "desc": "PTM REPL SEC RK NUT"
+        },
+        {
+          "id": 7501960,
+          "desc": "PTM REPL SECFUSESOL"
+        },
+        {
+          "id": 7501961,
+          "desc": "PTM REPL TGT FUSE"
+        },
+        {
+          "id": 7501962,
+          "desc": "PTM REPL TRFMR BOLT"
+        },
+        {
+          "id": 7501963,
+          "desc": "PTM REPL TRFMR NUT"
+        },
+        {
+          "id": 7501964,
+          "desc": "PTM REPL XARM BOLT"
+        },
+        {
+          "id": 7501965,
+          "desc": "PTM REPL XARM BRACS"
+        },
+        {
+          "id": 7501966,
+          "desc": "PTM REPL XARM NUT"
+        },
+        {
+          "id": 7501967,
+          "desc": "PTM REPL XARMBR BLT"
+        },
+        {
+          "id": 7501608,
+          "desc": "PTM REPL XARMBR NUT"
+        },
+        {
+          "id": 7501609,
+          "desc": "PTM TITN INS NUT"
+        },
+        {
+          "id": 7501970,
+          "desc": "PTM TITN NEUSPL NUT"
+        },
+        {
+          "id": 7501971,
+          "desc": "PTM TITN SEC RK NUT"
+        },
+        {
+          "id": 7501972,
+          "desc": "PTM TITN TRFMR NUT"
+        },
+        {
+          "id": 7501973,
+          "desc": "PTM TITN XARM NUT"
+        },
+        {
+          "id": 7501974,
+          "desc": "PTM TITN XARMBR NUT"
+        },
+        {
+          "id": 7504001,
+          "desc": "REPLACE CUTOUT/FUSE"
+        },
+        {
+          "id": 7503594,
+          "desc": "REPLACE POLE"
+        },
+        {
+          "id": 7502983,
+          "desc": "REPLACE SECONDARY FUSE BLOCK"
+        },
+        {
+          "id": 7503593,
+          "desc": "REPLACE TRANSFORMER"
+        },
+        {
+          "id": 7503592,
+          "desc": "REPLACE WIRE"
+        },
+        {
+          "id": 7501975,
+          "desc": "RM POLE 25 TO 35"
+        },
+        {
+          "id": 7501976,
+          "desc": "RM POLE 40 TO 50"
+        },
+        {
+          "id": 7501977,
+          "desc": "RM POLE 55 TO 65"
+        },
+        {
+          "id": 7501978,
+          "desc": "RM POLE 70 TO 80"
+        },
+        {
+          "id": 7501979,
+          "desc": "RM POLE 85 TO 100"
+        },
+        {
+          "id": 7501980,
+          "desc": "SECONDARY MULTIPLEX"
+        },
+        {
+          "id": 7501981,
+          "desc": "SECONDARY OPEN WIRE"
+        },
+        {
+          "id": 7501982,
+          "desc": "SERVICE LARGE"
+        },
+        {
+          "id": 7503595,
+          "desc": "SERVICE REPAIR"
+        },
+        {
+          "id": 7504002,
+          "desc": "SERVICE RESTORE"
+        },
+        {
+          "id": 7501983,
+          "desc": "SERVICE SMALL"
+        },
+        {
+          "id": 7501984,
+          "desc": "SH POLE 25 TO 35"
+        },
+        {
+          "id": 7501985,
+          "desc": "SH POLE 40 TO 50"
+        },
+        {
+          "id": 7501986,
+          "desc": "SH POLE 55 TO 65"
+        },
+        {
+          "id": 7501987,
+          "desc": "SH POLE 70 TO 80"
+        },
+        {
+          "id": 7501988,
+          "desc": "SH POLE 85 TO 100"
+        },
+        {
+          "id": 7501989,
+          "desc": "SHIELD WIRE"
+        },
+        {
+          "id": 7501990,
+          "desc": "STD GROUND 120KV"
+        },
+        {
+          "id": 7501991,
+          "desc": "STD GROUND 13 2KV"
+        },
+        {
+          "id": 7501992,
+          "desc": "STD GROUND 4 8KV"
+        },
+        {
+          "id": 7501993,
+          "desc": "STD GROUND 40KV"
+        },
+        {
+          "id": 7501994,
+          "desc": "STLT CONTROL UNIT"
+        },
+        {
+          "id": 7501995,
+          "desc": "STLT LUMINAIRE"
+        },
+        {
+          "id": 7501996,
+          "desc": "STLT MOUNT ARM"
+        },
+        {
+          "id": 7501997,
+          "desc": "STLT TRFMR"
+        },
+        {
+          "id": 7501998,
+          "desc": "TC POLE 25 TO 35"
+        },
+        {
+          "id": 7501999,
+          "desc": "TC POLE 40 TO 50"
+        },
+        {
+          "id": 7502000,
+          "desc": "TC POLE 55 TO 65"
+        },
+        {
+          "id": 7502001,
+          "desc": "TC POLE 70 TO 80"
+        },
+        {
+          "id": 7502002,
+          "desc": "TC POLE 85 TO 100"
+        },
+        {
+          "id": 7502003,
+          "desc": "TEMP GRNDS"
+        },
+        {
+          "id": 7502004,
+          "desc": "TEMP TRFMR BANK"
+        },
+        {
+          "id": 7502005,
+          "desc": "TRANSFER JU CABLE"
+        },
+        {
+          "id": 7502006,
+          "desc": "TRNS DE 336 TO 636"
+        },
+        {
+          "id": 7502007,
+          "desc": "TRNS DE 795 OR LARG"
+        },
+        {
+          "id": 7502008,
+          "desc": "TRNS DE SECONDARY"
+        },
+        {
+          "id": 7502009,
+          "desc": "TRNS DE SMALLER 336"
+        },
+        {
+          "id": 7502010,
+          "desc": "TRNS SERV LARGE"
+        },
+        {
+          "id": 7502011,
+          "desc": "TRNS SERV SMALL"
+        },
+        {
+          "id": 7502012,
+          "desc": "TRNS SHIELD DE"
+        },
+        {
+          "id": 7502013,
+          "desc": "TRNS SHIELD SL"
+        },
+        {
+          "id": 7502014,
+          "desc": "TRNS SL 336 TO 663"
+        },
+        {
+          "id": 7502015,
+          "desc": "TRNS SL 795 OR LARG"
+        },
+        {
+          "id": 7502016,
+          "desc": "TRNS SL SECONDARY"
+        },
+        {
+          "id": 7502017,
+          "desc": "TRNS SL SMALLER 336"
+        },
+        {
+          "id": 7502018,
+          "desc": "V MOUNT BRACKET"
+        },
+        {
+          "id": 7502019,
+          "desc": "WIRE 336 TO 636"
+        },
+        {
+          "id": 7502020,
+          "desc": "WIRE 795 OR LARGER"
+        },
+        {
+          "id": 7502021,
+          "desc": "WIRE SMALLER TH 336"
+        }
+      ],
+      "contractNumber": 4400004611
+    }
+  ],
+  "vendors": [
+    {
+      "id": "202298",
+      "desc": "Asplundh Construction"
+    },
+    {
+      "id": "200327",
+      "desc": "Asplundh Tree"
+    },
+    {
+      "id": "200495",
+      "desc": "Corby"
+    },
+    {
+      "id": "203438",
+      "desc": "Davey Tree"
+    },
+    {
+      "id": "201696",
+      "desc": "Energy Group"
+    },
+    {
+      "id": "202062",
+      "desc": "Hydaker"
+    },
+    {
+      "id": "204276",
+      "desc": "Kaltz"
+    },
+    {
+      "id": "202126",
+      "desc": "Kappen Tree"
+    },
+    {
+      "id": "202262",
+      "desc": "LeCom"
+    },
+    {
+      "id": "204376",
+      "desc": "Motor City Electric"
+    },
+    {
+      "id": "241669",
+      "desc": "Wright Tree"
+    },
+    {
+      "id": "232425",
+      "desc": "Xtreme"
+    }
+  ],
+  "jtnCodes": [
+    "ASH ",
+    "DIS",
+    "NBS",
+    "PTM",
+    "REL",
+    "S25",
+    "S50",
+    "SUB",
+    "TLR",
+    "TCP"
+  ],
+  "version": "1.0"
+}

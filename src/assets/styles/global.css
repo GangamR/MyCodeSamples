@@ -1,0 +1,62 @@
+
+.spacer5 {
+    height: 5em;
+}
+
+.spacer2 {
+    height: 2em;
+}
+
+.p0 {
+    padding: 0 !important;
+}
+
+.p1 {
+    padding: 1em;
+}
+
+.mt5 {
+    margin-top: 5em !important;
+}
+
+.mt4-4 {
+    margin-top: 4.4em !important;
+}
+
+.mb1 {
+    margin-bottom: 1em;
+}
+
+.mr5 {
+    margin-right: .5em;
+}
+
+.bgGray {
+    background-color: #CDCDCD;
+}
+
+.bgPrimary {
+    background-color: #0f9bcf;
+}
+
+.equipment-btn {
+    padding: 5px !important;
+    font-size: 14px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.txBlue {
+    color: #337ab7;
+}
+
+.txWhite {
+    color: #FFFFFF;
+}
+
+.txGreen {
+    color: #7FBA3C;
+}
+
